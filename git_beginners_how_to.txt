@@ -11,4 +11,26 @@ Step2: Move to that directory and download the repo of your interest to this dir
 	Now you will download this repo named "welcome" into the your directory called "/home/../../git" under the same name. The new directory would look like "/home/../../git/welcome" and this will contain your files "1.txt" and "2.txt"
 	The git command that you will use is this
 	git clone git://github.com/<username>/<name of your online repo, "welcome" in this case>
+Step2: initialize this directory into a git repo locally.
+	The git command "git init" will do all the house keeping functions for making this directory into a local git repository.
+Step3: Editing the files of your interest.
+Step4: Add all this files to the staging area. 
+	The git command 
+	git add *           -> to add all files
+
+Step5: Tell who you are to your git
+	The following git commands will do it
+	git config --global user.email "<your email add>"
+	git config --global user.name "<your github username>"
+Step6: only if you tell who you are to your local git you will be able to commit (save your latest changes) to your files
+	The git command 
+	git commit
+Step7: Reflect all these changes to your online repository.
+	Beware you should have a online repository( you entirely cannot make a repository locally and then push it to github)
+	The git command
+	git push origin master
+	
+	Here you will be promted for the github's username and password
+
+	
 	
