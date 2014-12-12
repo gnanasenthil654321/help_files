@@ -1,0 +1,14 @@
+Hello all,
+This is a very basic "how to" on git.
+You will be able to synchonize a repository with the online one at github.
+
+Use linux ( I am using Ubuntu)
+Download git to your computer.
+
+Step1: make a directory (eg. "/home/../../git") somewhere in your computer where you download your online repos from git.
+Step2: Move to that directory and download the repo of your interest to this directory .
+	Eg. Lets say that you already have a repository called "welcome" and let it have 2 files namely "1.txt" and "2.txt".
+	Now you will download this repo named "welcome" into the your directory called "/home/../../git" under the same name. The new directory would look like "/home/../../git/welcome" and this will contain your files "1.txt" and "2.txt"
+	The git command that you will use is this
+	git clone git://github.com/<username>/<name of your online repo, "welcome" in this case>
+	
